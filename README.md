@@ -1,4 +1,4 @@
-This Fork is to keep this Project going and Wine / FMD2 updated.
+This Fork is to keep this Project going and FMD2 updated.
 
 ## Descriptions
 
