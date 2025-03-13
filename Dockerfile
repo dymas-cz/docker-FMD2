@@ -7,6 +7,7 @@ LABEL \
 
 ENV \
   WINEDLLOVERRIDES="mscoree,mshtml=" \
+  WINEDEBUG="-all"\
   HOME=/config
 
 RUN \
@@ -20,10 +21,11 @@ RUN \
   apt autoremove -y p7zip-full wget curl --purge && \
   mkdir /downloads && \
   mkdir -p /app/FMD2/userdata && \
-  mkdir -p /app/FMD2/downloads
+  mkdir -p /app/FMD2/downloads \
 
 # Copy my settings preset
 COPY settings.json root /
+ADD root /
 
 VOLUME /config
 EXPOSE 3000
