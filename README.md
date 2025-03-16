@@ -15,7 +15,7 @@ Make sure to configure it using the 'web' ui.
 ## Bulding image
 ```
 git clone https://github.com/dymas-cz/docker-FMD2.git
-cd docker-FMD2.git
+cd docker-FMD2
 docker build . -t fmd2
 ```
 
