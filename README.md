@@ -1,8 +1,11 @@
-This Fork is to keep this Project going and FMD2 updated.
-
 ## Descriptions
 
+This Fork is to keep this Project going and FMD2 updated. Forked from https://github.com/ElryGH/docker-FMD2
+
 Dockerized FMD2 (Windows with Wine) using KasmVNC, to display GUI on a webpage.
+
+https://github.com/dazedcat19/FMD2
+
 
 Make sure to configure it using the 'web' ui.
 
@@ -10,7 +13,7 @@ Make sure to configure it using the 'web' ui.
 * Does not require any display, works headless
 * Keeps all of FMD2 features
 * Since it's docker, it works on Linux
-* Make use of Linuxserver alpine base image
+* Make use of Linuxserver baseimage-kasmvnc:ubuntunoble
 
 ## Bulding image
 ```
