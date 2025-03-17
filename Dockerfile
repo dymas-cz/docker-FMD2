@@ -1,6 +1,6 @@
 FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntunoble
 
-ARG FMD2_VERSION="2.0.34.1"
+ARG FMD2_VERSION="2.0.34.5"
 
 LABEL \
   maintainer="mail@elry.moe"
