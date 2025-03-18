@@ -26,7 +26,7 @@ docker build . -t fmd2
 ```yaml
 services:
   fmd2:
-    image: fmd2:latest
+    image: ghcr.io/dymas-cz/fmd2:latest
     container_name: fmd2
     environment:
       - PUID=1000
