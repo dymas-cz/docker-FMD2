@@ -22,7 +22,7 @@ cd docker-FMD2
 docker build . -t fmd2
 ```
 
-## Docker
+## Docker-compose
 ```yaml
 services:
   fmd2:
