@@ -3,7 +3,8 @@ FROM ghcr.io/linuxserver/baseimage-kasmvnc:ubuntunoble
 ARG FMD2_VERSION="2.0.34.5"
 
 LABEL \
-  maintainer="vysin.jiri@gmail.com"
+  maintainer="vysin.jiri@gmail.com" \
+  org.opencontainers.image.source https://github.com/OWNER/REPO
 
 ENV \
   WINEDLLOVERRIDES="mscoree,mshtml=" \
