@@ -5,7 +5,7 @@ ARG FMD2_VERSION="2.0.34.5"
 LABEL \
   maintainer="vysin.jiri@gmail.com" 
 LABEL \
-  org.opencontainers.image.source https://github.com/OWNER/REPO
+  org.opencontainers.image.source https://github.com/dymas-cz/docker-FMD2
 
 ENV \
   WINEDLLOVERRIDES="mscoree,mshtml=" \
